@@ -1,8 +1,10 @@
-<title>BongWatch</title>
+<html>
+<head>
+ <title>Bongwatch - Browse</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta
       name="description"
-      content="WATCH FREE MOVIE AND SAFE • Through out the globe, no region blocked comepletely Free for all" />
+      content="WATCH FREE MOVIE AND SAFE • trhough out the globe, no region blocked comepletely Free for all" />
     <meta name="theme-color" content="Black" />
     <meta name="keywords" content="Bongwatch" />
     <meta name="author" content="KlienReijiOniwa" />
@@ -14,60 +16,318 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- open graph metadata -->
-    <meta property="og:title" content="Termite Empire" />
+    <meta property="og:title" content="Bongwatch" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://klienreijioniwa.github.io/Bongwatch/" />
     <meta property="og:image" content="img/icon-game.png" />
     <meta
       property="og:description"
-      content="WATCH FREE MOVIE AND SAFE • Through out the globe, no region blocked comepletely Free for all">
-    <!-- Stylesheets -->
-<img src="https://raw.githubusercontent.com/KlienReijiOniwa/Bongwatch/refs/heads/main/img/dot2024_1019_1945_47.png">
-<center>
-  <h1>BONGWATCH</h1>
-  <button>
-   <a href="Bong.html">Start</a>
-
-  </button>
-
-  <figure></figure>
-  <kbd>2.1K Visitors | 3.4K Likes</kbd>
-
-  <figure></figure>
-  <input type="checkbox" checked=""> Like
-</center>
-<p>
-Welcome to BongWatch, your ultimate destination for Hollywood’s finest films! Explore an extensive library of blockbusters, timeless classics, and indie gems, all curated for your viewing pleasure. Enjoy seamless streaming, personalized recommendations, and exclusive content. Join our community of film enthusiasts and immerse yourself in the magic of cinema. Experience Hollywood like never before—start your free trial today!
-</p>
-<b>Watch Movies Online Free</b>
-<p>
-There is never a shortage of free movie sites. As the demand to watch movies online and watch series online has sharply increased recently, more and more free movies sites have come on the scene. That sounds like great news for movie fans, especially when millions of us are suffering from lockdown and poor financial situations. However, not all sites are good enough and safe. Some sites can do you more harm than good as they are filled with malicious ads. That is why it is extremely important to find a safe site to watch movies and TV shows online for free. And if you have not found one, give Bongwatch a check. We promise you will not regret it! 
-</p>
-<b>What is Bongwatch</b>
-<p>
-Bongwatch is one of the most popular sites that allow users to watch movies and TV shows in HD quality at no cost, you can also download movies free here. There are a huge variety of freely available movies and series on these sites, from the latest releases to all-time classics. There are blockbusters from big-name studios but also many hidden gems from less developed movie industries that you'll love to watch over and over again. Beside an extensive content library, Bongwatch also boasts premium quality features such as zero ad experience, fast loading speed, HD quality, seamless streaming feature, etc. Last but not least, we provide 24/7 customer service to make sure your overall user experience is as hassle-free and enjoyable as possible.
-</p>
-<kbd>Disclaimer : This Website Doesn't Contain any Flims to the server it is hosted by third Partys</kbd>
-<center>
-<figure>2024 - 2024</figure>
-</center>
-<kbd>From 🇵🇭 </kbd>
-<style>
-body {
-  background-color:#28282B;
+      content="WATCH FREE MOVIE AND SAFE • trhough out the globe, no region blocked comepletely Free for all">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color:#28282B; ppm
   color:white;
-}
-a {
-  color: white;
-}
-  button {
-    background-color: blue;
-    border-color: blue;
-    padding: 19px;
-    width: 190px;
-    margin-bottom: 9px;
+      animation: gradientAnimation 10s ease infinite alternate;
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    .playlist-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .playlist-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .media-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    .media-thumbnail {
+      flex: 0 0 120px;
+      margin-right: 10px;
+    }
+
+    .media-thumbnail img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .media-info {
+      flex-grow: 1;
+    }
+
+    .media-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: black;
+    }
+
+    .media-description {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .media-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #660000;
+      color: black;
+      cursor: pointer;
+    }
+
+    .media-button:hover {
+      background-color: #A52A2A;
+    }
+
+    .search-container {
+      margin-bottom: 20px;
+    }
+
+    .search-input {
+      width: 80%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .media-item.hidden {
+      display: none;
+    }
+
+    .intro-container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      overflow: hidden;
+    }
+
+    .logo {
+      opacity: 0;
+      animation: logoAnimation 3s forwards;
+    }
+
+    @keyframes logoAnimation {
+      0% {
+        opacity: 0;
+        transform: scale(0);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.2);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    footer {
+      color: gray;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+<div id="intro" class="intro-container">
+  <div class="logo">
+    <img src="https://raw.githubusercontent.com/KlienReijiOniwa/Bongwatch/refs/heads/main/img/dot2024_1019_1945_47.png">
+  </div>
+</div>
+ <audio id="som" controls hidden="">
+  <source src="sound/BongwatchIntro.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<div class="playlist-container">
+  <h1 class="playlist-title">Bongwatch</h1>
+
+  <div class="search-container">
+    <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+  </div>
+
+  <!-- Movie 1 -->
+  <div class="media-item">
+    <div class="media-thumbnail">
+      <a>
+        <img src="https://www.dreamworks.com/storage/cms-uploads/the-wild-robot-poster4.jpg">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">The Wild Robot</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/TheWildrobot.html')">Watch</button>
+    </div>
+  </div>
+
+  <!-- Movie 2 -->
+  <div class="media-item">
+    <div class="media-thumbnail">
+      <a>
+        <img src="https://img.cdno.my.id/thumb/w_234/h_351/venom-the-last-dance-1630857833.webp">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">Venom:The Last Dance</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/Venom-last-dance.html')">Watch</button>
+    </div>
+  </div>
+
+  <!-- Movie 3 -->
+  <div class="media-item">
+    <div class="media-thumbnail">
+      <a >
+        <img src="https://img.cdno.my.id/thumb/w_234/h_351/transformers-one-1630857630.webp">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">Transformer One</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/Transformerone.html')">Watch</button>
+    </div>
+  </div>
+  <div class="media-item">
+    <div class="media-thumbnail">
+      <a >
+        <img src="https://img.cdno.my.id/thumb/w_312/h_468/joker-folie-a-deux-1630857718.jpg">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">Joker: Folie à Deux</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/Joker-2024.html')">Watch</button>
+    </div>
+  </div>
+    <div class="media-item">
+    <div class="media-thumbnail">
+      <a >
+        <img src="https://img.cdno.my.id/thumb/w_312/h_468/deadpool-wolverine-1630857355.jpg">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">Deadpool & Wolverine</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/deadpool-wolverine.html')">Watch</button>
+    </div>
+  </div>
+    <div class="media-item">
+    <div class="media-thumbnail">
+      <a >
+        <img src="https://img.cdno.my.id/thumb/w_156/h_234/beetlejuice-beetlejuice-1630857597.jpg">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">Beetlejuice Beetlejuice</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/beetlejuicemovie.html')">Watch</button>
+    </div>
+  </div>
+    <div class="media-item">
+    <div class="media-thumbnail">
+      <a >
+        <img src="https://img.cdno.my.id/thumb/w_312/h_468/alien-romulus-1630857469.jpg">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">Alien Romulus</h2>
+      <p class="media-description">2024 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/alien-romulus.html')">Watch</button>
+    </div>
+  </div>
+   <div class="media-item">
+    <div class="media-thumbnail">
+      <a >
+        <img src="https://img.cdno.my.id/thumb/w_200/h_300/a-quiet-place-24429.jpg">
+      </a>
+    </div>
+    
+    <div class="media-info">
+      <h2 class="media-title">A Quiet Place</h2>
+      <p class="media-description">2018 • Movie</p>
+      <button class="media-button" onclick="window.open('Movies/quietplace.html')">Watch</button>
+    </div>
+  </div>
+  <!-- Add more here -->
+
+</div>
+
+<script>
+  // Filter playlist items based on search term
+  function searchPlaylist() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toUpperCase();
+    const mediaItems = document.querySelectorAll('.media-item');
+
+    mediaItems.forEach(function(item) {
+      const title = item.querySelector('.media-title');
+      const description = item.querySelector('.media-description');
+      const shouldDisplay = title.innerText.toUpperCase().indexOf(filter) > -1 || description.innerText.toUpperCase().indexOf(filter) > -1;
+
+      if (shouldDisplay) {
+        item.classList.remove('hidden');
+      } else {
+        item.classList.add('hidden');
+      }
+    });
   }
-  img {
-    width: 50px;
+
+  // Detect changes in search input
+  document.getElementById('searchInput').addEventListener('input', searchPlaylist);
+
+  // Start "som.mp3" with intro animation
+  window.onload = function() {
+    var introContainer = document.getElementById('intro');
+    var logo = document.querySelector('.logo');
+    
+   document.getElementById('som').play()
+    som.onloadeddata = function() {
+      logo.style.opacity = 1;
+      som.play();
+    };
+
+    setTimeout(function() {
+      introContainer.style.display = 'none';
+    }, 3000); // Wait 3 seconds before hiding intro
   }
-</style>
+</script>
+<footer>--> github.esvlc@slmail.me | Links found indexed by Google. | Use an ad blocker!</footer>
+</body>
+</html>
