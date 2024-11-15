@@ -1,15 +1,28 @@
-# Changelog
+# ChangeLog ( Bongwatch )
 
-## 1.2.0 - 08.04.2018
+## v0.0.3:
+- Support 4K
+• Depends The Device or the Wifi, Mp4
 
-- Showing an unit when Bitcoins or Satoshis reached the 1 million border
+- Screen TV Share Fixed
+• The White Bug at the Screen TV Share is now fixed, and the low server connection has now been patched due to an override share screen
 
-## Version 1.1. (+ 1.1.1) - 28.03.2018
+- Movie FPS Improved
+• The Movie Fps has been improved!
 
-- Adding a reset button | https://github.com/julianYaman/bitcoin-clicker/commit/d25beb1bef64082129fcb3479144a8638b9429d0
-- Big update in the price system (adding a constant multiplier for all prices) | https://github.com/julianYaman/bitcoin-clicker/commit/44ef5d40df37308f8ad4ff0c093982bf3c39c530
-- (Repository) Adding content to the README.md file | https://github.com/julianYaman/bitcoin-clicker/commit/6cc18c0ff9ac564e91e4e776e43f35b203d748bc
+- Website Blocklist Country
+• Blocked China
+• Blocked Russia
+Due to A attempt of attack
+(2024-November-16)
 
-## Version 1.0 - 17.03.2018
+## v0.0.2:
+- Change of Style
+• change to Neutral
+- Support Globaly
+(2024-November-1)
 
-- Initial work files commit | https://github.com/julianYaman/bitcoin-clicker/commit/3ebcbd23f079514eb56ebd59cb9c0e5d493e2220
+## v0.0.1:
+The Offical Publish of the site
+long way hardwork to make the site
+( 2024-October-2)
