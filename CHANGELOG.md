@@ -1,4 +1,4 @@
-# ChangeLog ( Bongwatch )
+# ChangeLog 
 
 ## v0.0.3:
 - Support 4K
